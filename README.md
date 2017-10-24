@@ -5,17 +5,17 @@ With these audio files, one can read the vocabulary list and listen to them at t
 
 It follows the simple algorithm below:
 
-Load file
-read line by line
-def loadFile(filepath):
-     try:
-         f = open(filepath, 'r')
-         return f
-     except:
-         print("cannot open " + filepath)
-         return
-def splitDeEn(f):
-     line = f.readline();
+Load file 
+read line by line 
+def loadFile(filepath): 
+     try: 
+         f = open(filepath, 'r') 
+         return f 
+     except: 
+         print("cannot open " + filepath) 
+         return 
+def splitDeEn(f): 
+     line = f.readline(); 
      de, en = line.split(',') # split De and EN entries
      START:
      Read the whole line
