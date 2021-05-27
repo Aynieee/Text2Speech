@@ -21,7 +21,7 @@ def splitDeEn(f):  <br />
      Read the whole line <br />
      Split the English text from the German text and load to DE and EN <br />
      load tts <br />
-     create audio file called line_number_de.pm3 and line_number_en.mp3 <br />
+     create audio file called line_number_de.mp3 and line_number_en.mp3 <br />
      read the German text, tts it and write it to line_number_de.mp3 <br />
      read the English text, tts it and write it to line_number_en.mp3 <br />
      save and close the files <br />
